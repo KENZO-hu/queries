@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furry Frenzy</title>
+    <!-- إضافة مكتبة Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        /* تنسيق شريط التنقل */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgb(255, 166, 0);
+            border-bottom: 1px solid #ddd;
+            border-radius: 15px;
+        }
+
+        /* تنسيق الصفحة التي تحتوي على الأيقونة والنصوص */
+        .cart-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .cart-icon {
+            font-size: 50px;
+            color: orange;
+        }
+
+        .cart-container p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .cart-container button {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .cart-container button:hover {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <span class="store-name">Furry Frenzy</span>
+        </div>
+
+        <div class="nav-right">
+            <!-- زر البحث بأيقونة -->
+            <button id="search-icon" onclick="toggleSearch()">
+                <i class="fas fa-search"></i>
+            </button>
+            <input type="search" name="search" id="search" placeholder="search..." style="display: none;">
+        </div>
+    </nav>
+
+    <br><br>
+
+    <div class="cart-container">
+        <i class="fas fa-shopping-cart cart-icon"></i>
+        <p>Your cart is empty!</p>
+        <p>Browse our categories and discover our best products.</p>
+        <button>Start shopping</button>
+    </div>
+
+    <script>
+        // التحكم في ظهور وإخفاء حقل البحث
+        function toggleSearch() {
+            const searchInput = document.getElementById("search");
+            if (searchInput.style.display === "none" || searchInput.style.display === "") {
+                searchInput.style.display = "block";
+            } else {
+                searchInput.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>

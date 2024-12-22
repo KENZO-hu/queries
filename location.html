@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furry Frenzy</title>
+    <!-- إضافة مكتبة Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        /* تنسيق شريط التنقل */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgb(255, 166, 0);
+            border-bottom: 1px solid #ddd;
+            border-radius: 15px;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <span class="store-name">Furry Frenzy</span>
+        </div>
+
+        <div class="nav-right">
+            <!-- زر البحث بأيقونة -->
+            <button id="search-icon" onclick="toggleSearch()">
+                <i class="fas fa-search"></i>
+            </button>
+            <input type="search" name="search" id="search" placeholder="search..." style="display: none;">
+        </div>
+    </nav>
+
+    <br><br>
+
+    
+
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Location - furry frenzy Shop</title>
+        <style>
+            /* General Styles */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                background: url(https://media.istockphoto.com/id/1388281684/vector/seamless-dog-pattern-with-paw-prints-bones-hearts-and-balls-cat-foot-texture-pattern-with.jpg?s=612x612&w=0&k=20&c=St1dISSnU7zobbE4y1VWD7hhEnWcUGriSVZ5ocoSYWU=);
+                color: #333;
+          }
+                
+            /* Location Section */
+            .location {
+                padding: 40px 20px;
+                text-align: center;
+                background-color: white;
+            }
+    
+            .location h2 {
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+    
+            .location p {
+                font-size: 18px;
+                margin-bottom: 30px;
+            }
+    
+            .map {
+                width: 100%;
+                height: 400px;
+                margin-bottom: 40px;
+            }
+    
+            /* Contact Info */
+            .contact-info {
+                background-color: white;
+                padding: 20px;
+                margin: 0 10px;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                max-width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+    
+            .contact-info h3 {
+                font-size: 28px;
+                margin-bottom: 15px;
+            }
+    
+            .contact-info p {
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+    
+            /* Footer */
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 10px 0;
+            }
+        </style>
+    </head>
+    <body>
+      
+    
+        <section class="location">
+            <h2>Our Location</h2>
+            <p>Visit us at our store! We are located in the heart of the city, easily accessible and ready to help you with all your pet needs.</p>
+    
+            <!-- Google Map Embed -->
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.7814335997256!2d-73.98513008415314!3d40.74881797932637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ae80e0ef57%3A0x8f76bc6b26e94a97!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1677461953218!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    
+        
+    
+        
+    </body>
+    </html>
+    
+
+
+
+
+
+
+
+    <script>
+        // التحكم في ظهور وإخفاء حقل البحث
+        function toggleSearch() {
+            const searchInput = document.getElementById("search");
+            if (searchInput.style.display === "none" || searchInput.style.display === "") {
+                searchInput.style.display = "block";
+            } else {
+                searchInput.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .footer {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .footer .brands {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .footer .brands img {
+      height: 50px;
+    }
+    .footer .contact {
+      margin-bottom: 20px;
+    }
+    .footer a {
+      color: orange;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .footer .social-icons {
+      margin-top: 10px;
+    }
+    .footer .social-icons a {
+      margin: 0 10px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="footer">
+   
+    <div class="contact">
+      <b>furry frenzyr</b>
+      <p>Tél/WhatsApp: <a href="tel:0702070067">0634547888</a></p>
+    </div>
+    <div class="links">
+      <a href="#terms">Conditions générales</a>
+      <a href="#privacy">Politique de confidentialité</a>
+      <a href="#shipping">Expédition/Livraison</a>
+      <a href="#refund">Remboursements et retours</a>
+    </div>
+    <div class="social-icons">
+      <a href="#facebook">Facebook</a>
+      <a href="#instagram">Instagram</a>
+    </div>
+  </div>
+
+</body>
+</html>

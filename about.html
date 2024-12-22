@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furry Frenzy</title>
+    <!-- إضافة مكتبة Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        /* تنسيق شريط التنقل */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgb(255, 166, 0);
+            border-bottom: 1px solid #ddd;
+            border-radius: 15px;
+        }
+</style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <span class="store-name">Furry Frenzy</span>
+        </div>
+
+        <div class="nav-right">
+            <!-- زر البحث بأيقونة -->
+            <button id="search-icon" onclick="toggleSearch()">
+                <i class="fas fa-search"></i>
+            </button>
+            <input type="search" name="search" id="search" placeholder="search..." style="display: none;">
+        </div>
+    </nav>
+      
+    <br><br>
+
+
+
+
+
+    
+        <style>
+            /* General Styles */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                background: url(https://media.istockphoto.com/id/1388281684/vector/seamless-dog-pattern-with-paw-prints-bones-hearts-and-balls-cat-foot-texture-pattern-with.jpg?s=612x612&w=0&k=20&c=St1dISSnU7zobbE4y1VWD7hhEnWcUGriSVZ5ocoSYWU=);
+                color: #333;
+            }
+    
+            h1, h2, h3 {
+                color: #333;
+            }
+    
+            
+    
+            /* About Us Section */
+            .about-us {
+                background-color: white;
+                padding: 40px 20px;
+                text-align: center;
+            }
+    
+            .about-us h2 {
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+    
+            .about-us p {
+                font-size: 18px;
+                margin-bottom: 20px;
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+    
+            .team {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 40px;
+                flex-wrap: wrap;
+            }
+    
+            .team-member {
+                background-color: white;
+                padding: 20px;
+                margin: 10px;
+                border-radius: 8px;
+                width: 250px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                text-align: center;
+            }
+    
+            .team-member img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+    
+            .team-member h3 {
+                margin-top: 10px;
+                font-size: 24px;
+            }
+    
+            .team-member p {
+                font-size: 16px;
+                color: #555;
+            }
+    
+            /* Footer */
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 10px 0;
+            }
+        </style>
+    </head>
+    <body>
+        
+    
+        <section class="about-us">
+            <h2>About Us</h2>
+            <p>Welcome furry frenzy Shop! We are passionate about providing the best pets and products for your furry, feathered, and scaly friends. Our goal is to offer a wide variety of pets and pet care essentials, so your pets can live happy and healthy lives.</p>
+            <p>At Pet Shop, we believe that pets are family, and we treat every pet with the love and care they deserve. Whether you're looking to adopt a pet or find supplies, we are here to help you along every step of the way.</p>
+    
+            <div class="team">
+                <div class="team-member">
+                    <img src="https://www.petfoodprocessing.net/ext/resources/Articles/2024/04%20Apr/041224_Inc.-Female-Founders-250_Embedded-Spies.jpg" alt="Team Member 1">
+                    <h3>Jane Doe</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://www.sheknows.com/wp-content/uploads/2018/12/nsgn0jjwyx0hvmonxqgz.jpeg?w=360" alt="Team Member 2">
+                    <h3>John Smith</h3>
+                    <p>Pet Care Specialist</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://miro.medium.com/v2/resize:fit:2000/1*gB4CDcmoG9hLQplp6YCATA.jpeg" alt="Team Member 3">
+                    <h3>Emily Johnson</h3>
+                    <p>Customer Support</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Footer -->
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Footer Example</title>
+          <style>
+            body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+            }
+            .footer {
+              background-color: #000;
+              color: #fff;
+              padding: 20px;
+              text-align: center;
+            }
+            .footer .brands {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              gap: 20px;
+              margin-bottom: 20px;
+            }
+            .footer .brands img {
+              height: 50px;
+            }
+            .footer .contact {
+              margin-bottom: 20px;
+            }
+            .footer a {
+              color: orange;
+              text-decoration: none;
+              margin: 0 10px;
+            }
+            .footer a:hover {
+              text-decoration: underline;
+            }
+            .footer .social-icons {
+              margin-top: 10px;
+            }
+            .footer .social-icons a {
+              margin: 0 10px;
+              font-size: 18px;
+            }
+          </style>
+        </head>
+        <body>
+        
+          <div class="footer">
+            
+            <div class="contact">
+              <b>Furry frenzy</b>
+              <p>Tél/WhatsApp: <a href="tel:0702070067">06345478887</a></p>
+            </div>
+            <div class="links">
+              <a href="#terms">Conditions générales</a>
+              <a href="#privacy">Politique de confidentialité</a>
+              <a href="#shipping">Expédition/Livraison</a>
+              <a href="#refund">Remboursements et retours</a>
+            </div>
+            <div class="social-icons">
+              <a href="#facebook">Facebook</a>
+              <a href="#instagram">Instagram</a>
+            </div>
+          </div>
+        
+        </body>
+        </html>
+
+    
+    </body>
+</html>
+
+
+
+
+
+    
+
+    <script>
+        // التحكم في ظهور وإخفاء حقل البحث
+        function toggleSearch() {
+            const searchInput = document.getElementById("search");
+            if (searchInput.style.display === "none" || searchInput.style.display === "") {
+                searchInput.style.display = "block";
+            } else {
+                searchInput.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+</html>
